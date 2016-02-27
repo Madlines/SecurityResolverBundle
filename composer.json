@@ -1,0 +1,22 @@
+{
+  "name": "madlines/security-resolver-bundle",
+  "type": "library",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksander Ciesiołkiewicz",
+      "email": "a.ciesiolkiewicz@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "madlines/common-security-resolver": "^1.1",
+    "symfony/symfony": "^2.7 | ^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Madlines\\SecurityResolverBundle\\": "src"
+    }
+  }
+}

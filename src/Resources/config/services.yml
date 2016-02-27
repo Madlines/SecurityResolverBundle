@@ -1,0 +1,3 @@
+services:
+    madlines.security_resolver.access_resolver:
+        class: Madlines\Common\SecurityResolver\AccessResolver
